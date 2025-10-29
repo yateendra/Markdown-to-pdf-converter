@@ -1,0 +1,39 @@
+/* Critical Editor Text Color Override */
+/* This file contains the most aggressive overrides to fix text visibility */
+
+/* Light Mode - Force Dark Text */
+[data-color-mode='light'] .w-md-editor-text-input,
+[data-color-mode='light'] .w-md-editor textarea,
+[data-color-mode='light'] textarea.w-md-editor-text-input {
+  color: #111827 !important;
+  -webkit-text-fill-color: #111827 !important;
+  background-color: #ffffff !important;
+}
+
+[data-color-mode='light'] .w-md-editor-text-pre,
+[data-color-mode='light'] .w-md-editor-text-pre > code {
+  color: #111827 !important;
+}
+
+[data-color-mode='light'] .w-md-editor-content {
+  background-color: #ffffff !important;
+}
+
+/* Dark Mode - Force Light Text */
+[data-color-mode='dark'] .w-md-editor-text-input,
+[data-color-mode='dark'] .w-md-editor textarea,
+[data-color-mode='dark'] textarea.w-md-editor-text-input {
+  color: #f9fafb !important;
+  -webkit-text-fill-color: #f9fafb !important;
+  background-color: #111827 !important;
+}
+
+[data-color-mode='dark'] .w-md-editor-text-pre,
+[data-color-mode='dark'] .w-md-editor-text-pre > code {
+  color: #f9fafb !important;
+}
+
+[data-color-mode='dark'] .w-md-editor-content {
+  background-color: #111827 !important;
+}
+
