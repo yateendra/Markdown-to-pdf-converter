@@ -7,8 +7,7 @@ A modern, feature-rich React application that converts Markdown content to beaut
 ---
 
 Demo:
-https://yateendrasahu.github.io/markdown-to-pdf-converter/
-https://6901964bd5878a3d2193c6e9--stupendous-kashata-91feed.netlify.app/
+https://yateendrasahu.github.io/markdown-to-pdf-converter
 
 ![](https://raw.githubusercontent.com/yateendra/Markdown-to-pdf-converter/refs/heads/main/preview.PNG)
 
